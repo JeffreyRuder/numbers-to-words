@@ -1,0 +1,29 @@
+1.
+Behavior: It returns the correct word for a one digit integer.
+Input: 7
+Output: seven
+
+2.
+Behavior: It returns the correct word for a two digit integer.
+Input: 43
+Output: forty-three
+
+3.
+Behavior: It returns the correct word for a three digit integer.
+Input: 892
+Output: eight-hundred ninety-two
+
+4.
+Behavior: It returns the correct word for a four digit integer.
+Input: 1227
+Output: one-thousand two-hundred twenty-seven
+
+5.
+Behavior: It returns the correct word for a digit 11-15.
+Input: 12
+Output: twelve
+
+6.
+Behavior: It returns the correct word for a digit 16-19.
+Input: 17
+Output: seventeen
