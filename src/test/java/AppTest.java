@@ -8,4 +8,11 @@ public class AppTest {
     App app = new App();
     assertEquals("seven", app.numberToWord(7));
   }
+
+  @Test
+  public void numberToWord_forTwoDigitNumber_fortytwo() {
+    App app = new App();
+    assertEquals("forty-two", app.numberToWord(42));
+  }
+  
 }
